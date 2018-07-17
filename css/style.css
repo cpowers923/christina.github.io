@@ -1,0 +1,23 @@
+
+
+
+* {
+	margin: 0 auto;
+	box-sizing: border-box;	
+}
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+
+.hero {
+	/* height adjusted and position: relative  */
+	margin: 0 auto;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
