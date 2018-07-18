@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Anton|Coda+Caption:800|Cormorant+Garamond|Merriweather|Open+Sans+Condensed:300|Oswald|PT+Sans+Narrow|Pathway+Gothic+One|Playfair+Display|Satisfy');
 
 
 * {
@@ -11,13 +11,92 @@ html,body{
     overflow-x:hidden;
   }
 
+body {
+	font-family: 'Open Sans Condensed';
+	font-size: 1em;
+
+
+}
+
+#name {
+position: absolute;
+margin-top: -40em;
+margin-left: 10em;
+}
+
+h1 {
+	font-family: 'Playfair Display';
+	font-size: 7em;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	font-family: 'Satisfy';
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+
+}
+
+h3 {
+	font-family: 'Open Sans Condensed';
+	font-size: 1.5em;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+p {
+	font-family: 'Open Sans Condensed';
+	font-size: 1.5em;
+}
 
 .hero {
-	/* height adjusted and position: relative  */
-	margin: 0 auto;
 	max-width: 100%;
+	height: 48.000em;
+	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
 }
+
+.toms {
+	opacity: 0.7;
+}
+
+section {
+	padding: 4em;
+}
+
+#reservations {
+	text-align: center;
+	padding-bottom: 8em;
+}
+
+#make {
+	padding: 0;
+    margin: 0;
+    float: left;
+    width: 48%;
+}
+
+
+#existing {
+    padding: 0 .5em 1em 0em;
+    float: right;   
+    width: 48%;
+
+}
+
+#map {
+	text-align: center;
+}
+
+#reviews {
+	text-align: center;
+}
+
