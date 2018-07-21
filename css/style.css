@@ -92,11 +92,53 @@ section {
 
 }
 
-#map {
+#dine {
+	margin-top: 4em;
 	text-align: center;
+}
+
+#dine h3 {
+	padding-bottom: 2em;
+}
+
+#map {
+	width: 100%;
+	position: relative;
+
+}
+
+.clearfix:map {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
 #reviews {
 	text-align: center;
+	position: absolute;
 }
 
+#reviews img {
+	width: 75%;
+}
+
+#reviews p {
+	font-size: 1.3em;
+	text-align: justify;
+	font-style: italic;
+	padding-left: em;
+}
+
+#left {
+	float: left;
+	padding-top: 2em;
+}
+
+#right {
+	padding-top: 2em;
+	text-align: justify;
+	float: right;
+}
