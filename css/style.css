@@ -20,16 +20,16 @@ body {
 
 #name {
 	position: absolute;
-	margin-top: -40em;
+	margin-top: -45em;
 	text-align: center;
-	left: 50%;
+	left: 60%;
 	margin-left: -26em;
 }
 
 
 h1 {
 	font-family: 'Playfair Display';
-	font-size: 7em;
+	font-size: 5em;
 	text-transform: uppercase;
 	text-align: center;
 	color: white;
@@ -52,6 +52,15 @@ h3 {
 
 }
 
+.reslink {
+	margin-top: 8em;
+	font-family: 'Open Sans Condensed';
+	font-size: 1.5em;
+	font-weight: 600;
+	color: white;
+	
+}
+
 p {
 	font-family: 'Open Sans Condensed';
 	font-size: 1.5em;
@@ -59,7 +68,7 @@ p {
 
 .hero {
 	max-width: 100%;
-	height: 48.000em;
+	height: 55.000em;
 	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -123,7 +132,7 @@ button:hover {
 }
 
 #dine {
-	margin-top: 4em;
+	margin-top: 10em;
 	text-align: center;
 }
 
@@ -170,6 +179,7 @@ button:hover {
 
 #right {
 	padding-top: 2em;
+	padding-right: 6em;
 	text-align: justify;
 	float: right;
 }
